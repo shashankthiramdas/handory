@@ -487,7 +487,7 @@ function product_list_fun(){
 
       const product_img = document.createElement("img");
       product_img.classList.add("product_img");
-      product_img.src = `Product pics/Account${i+1}/p${j+1}.jpg`;
+      product_img.src = `Product pics/Account${i+1}/P${j+1}.jpg`;
 
       product_list_item.append(product_img);
 
@@ -549,7 +549,7 @@ function p_page_p_list_fun(a_p_num, p_num) {
   p_page_name.innerText = creator.name;
 
   p_page_details_img_tag.src =
-    `Product pics/Account${a_p_num + 1}/p${p_num + 1}.jpg`;
+    `Product pics/Account${a_p_num + 1}/P${p_num + 1}.jpg`;
 
   p_page_p_d_name.innerText = product.name;
   p_page_p_d_dis.innerText = product.description;
@@ -586,7 +586,7 @@ function p_page_p_list_fun(a_p_num, p_num) {
 
     const img = document.createElement("img");
     img.classList.add("p_page_p_list_r_img");
-    img.src = `Product pics/Account${a_p_num + 1}/p${i + 1}.jpg`;
+    img.src = `Product pics/Account${a_p_num + 1}/P${i + 1}.jpg`;
 
     const title = document.createElement("div");
     title.classList.add("p_page_p_list_r_title");
@@ -650,7 +650,7 @@ user_page_a_d_following_value.innerText=`${creator.following}`;
 
     const img = document.createElement("img");
     img.classList.add("p_page_p_list_r_img");
-    img.src = `Product pics/Account${a_p_num + 1}/p${i + 1}.jpg`;
+    img.src = `Product pics/Account${a_p_num + 1}/P${i + 1}.jpg`;
 
     const title = document.createElement("div");
     title.classList.add("p_page_p_list_r_title");
