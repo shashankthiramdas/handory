@@ -555,7 +555,7 @@ function p_page_p_list_fun(a_p_num, p_num) {
   p_page_p_d_dis.innerText = product.description;
   p_page_p_d_price_value.innerText = `${product.price} ₹`;
 
-  p_page_a_d_dp.style.backgroundImage = `url('account_dps/a${a_p_num+1}.jpg')`;
+  p_page_a_d_dp.style.backgroundImage = `url('Account_dps/a${a_p_num+1}.jpg')`;
   p_page_a_d_name.innerText = creator.name;
   p_page_a_d_name.addEventListener("click",()=>{
    p_page.style.display="none";
@@ -637,7 +637,7 @@ function user_page_fun(a_p_num,p_num){
 });
   
   user_page_name.innerText=`${creator.name}`;
-  user_page_logo.style.backgroundImage=`url('account_dps/a${a_p_num+1}.jpg')`;
+  user_page_logo.style.backgroundImage=`url('Account_dps/a${a_p_num+1}.jpg')`;
 user_page_a_d_posts_value.innerText=`${creator.products.length}`;
 user_page_a_d_followers_value.innerText=`${creator.followers}`;
 user_page_a_d_following_value.innerText=`${creator.following}`;
